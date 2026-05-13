@@ -1,16 +1,46 @@
-# React + Vite
+# Scheduling App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une application de gestion de calendrier et de rendez-vous, inspirée de Calendly.
+Entièrement designée sur **Figma** puis développée en **React**.
 
-Currently, two official plugins are available:
+## ✨ Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Calendar** — Vue Jour, Semaine et Mois avec événements interactifs et tooltips
+- **Priorities** — Timeline sinusoïdale originale avec effet parallaxe à la souris
+- **Availability** — Gestion des disponibilités par jour avec toggles
+- **Events Management** — Création et configuration d'événements
+- **Messages** — Chat fonctionnel en temps réel
+- **BottomBar** — Météo + horloges en temps réel pour 8 pays avec drapeaux SVG
 
-## React Compiler
+## 🛠️ Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 18 + Vite
+- Lucide React
+- CSS Variables
+- SVG pur
 
-## Expanding the ESLint configuration
+## 🚀 Lancer le projet
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+Ouvre `http://localhost:5173`
+
+##  Structure
+src/
+├── App.jsx
+├── index.css
+└── components/
+├── Sidebar.jsx
+├── Topbar.jsx
+├── CalendarView.jsx
+├── PrioritiesView.jsx
+├── AvailabilityView.jsx
+├── EventsView.jsx
+├── MessagesView.jsx
+└── BottomBar.jsx
+
+##  Auteure
+
+**Lilia Ourdani** — Développeuse Frontend & UX/UI Designer
